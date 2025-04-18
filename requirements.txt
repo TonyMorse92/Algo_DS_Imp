@@ -1,0 +1,12 @@
+# Will eventually need to make http requests.
+requests
+
+# For EDA 
+notebook
+
+# For Analysis
+numpy
+matplotlib
+pandas
+pandas_datareader
+scipy
