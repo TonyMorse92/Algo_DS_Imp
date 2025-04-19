@@ -10,3 +10,4 @@ matplotlib
 pandas
 pandas_datareader
 scipy
+statsmodels
