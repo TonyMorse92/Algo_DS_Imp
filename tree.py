@@ -13,5 +13,7 @@ class Tree:
 root = Tree("root")
 root.left_child = Tree("left")
 root.right_child = Tree("right")
+root.right_child.right_child = Tree("rightyright")
+
 
 print(root)
