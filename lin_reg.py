@@ -13,7 +13,7 @@ poly1d_fn = np.poly1d(slope)
 
 plt.plot(x, y, 'yo', x, poly1d_fn(x), '--k')
 
-plt.xlim(0,5)
+plt.xlim(0,10)
 plt.ylim(0,12)
 
 
