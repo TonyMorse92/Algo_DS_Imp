@@ -1,5 +1,5 @@
 # Basic quicksort check
-
+import Data.gen_data as gen
 
 def quick_sort_nums(lst):
 	if (len(lst) < 2):
@@ -16,4 +16,13 @@ def quick_sort_nums(lst):
 	return quick_sort_nums(left) + mid + quick_sort_nums(right)
 
 
+example = gen.gen_ints(size=10)
 
+print(example)
+
+example = quick_sort_nums(example)
+
+# Convert numpy types back to python
+example = [num.item() for num in example]
+
+print(example)
