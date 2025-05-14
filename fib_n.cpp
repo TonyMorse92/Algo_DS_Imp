@@ -14,14 +14,10 @@ int fib(int n)
 
 int main()
 {
-	int n = 1;
-	cout << fib(n) << "\n";
-
-	n = 2;
-	cout << fib(n) << "\n";
-
-	n = 10;
-	cout << fib(n) << "\n";
+	for (int i = 0; i < 15; i++) {
+	
+		cout << fib(i) << "\n";
+	}
 
 	return 0;
 }
