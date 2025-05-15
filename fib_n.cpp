@@ -14,9 +14,9 @@ int fib(int n)
 
 int main()
 {
-	for (int i = 0; i < 15; i++) {
+	for (int n = 0; n < 45; n++) {
 	
-		cout << fib(i) << "\n";
+		cout << "Index: " << n << "  fib(n): " << fib(n) << "\n";
 	}
 
 	return 0;
